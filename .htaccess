@@ -8,7 +8,7 @@ RewriteEngine On
     RewriteRule ^gallery$                   gallery.php
     RewriteRule ^contact-email/([a-z-]+)$    contact.php?id=$1
     RewriteRule ^contact$                        contact.php?
-    RewriteRule ^services|services$          services.php?
+    RewriteRule ^services$          services.php?
 
     RewriteRule ^blog$                        blog.php
     RewriteRule ^blog/([a-zA-Z0-9-]+)$        blog.detail.php?mat=$1
