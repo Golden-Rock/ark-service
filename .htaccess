@@ -1,0 +1,24 @@
+RewriteEngine On  
+
+    RewriteRule ^home|index$                index.php
+    RewriteRule ^contact/home$              contact.php
+    RewriteRule ^about$                     about.php
+    RewriteRule ^shops$                     shops.php
+
+    RewriteRule ^gallery$                   gallery.php
+    RewriteRule ^contact-email/([a-z-]+)$    contact.php?id=$1
+    RewriteRule ^contact$                        contact.php?
+    RewriteRule ^services|services$          services.php?
+
+    RewriteRule ^blog$                        blog.php
+    RewriteRule ^blog/([a-zA-Z0-9-]+)$        blog.detail.php?mat=$1
+    
+    RewriteRule ^member$  member.php 
+    RewriteRule ^member/([a-zA-Z0-9-]+)$        member.detail.php?mat=$1
+    
+    
+    RewriteRule ^service/([a-zA-Z0-9-]+)$        service.detail.php?mat=$1
+    RewriteRule ^ourservices$          services.php
+    
+    RewriteRule ^ourcustomer$          ourcustomer.php
+    RewriteRule ^faq$          faq.php
