@@ -1,9 +1,9 @@
-    <?php 
+    <?php /*
         include('api/cle_api.php');
         $obj_tous_post = recup_article();
        
         $services = recup_services();
-        // var_dump($services);
+        // var_dump($services);*/
 
     ?>
 <!DOCTYPE html>
@@ -43,6 +43,9 @@ safety services that address the pressing needs of our customers in Cameroon.">
     <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
     <link rel="stylesheet" type="text/css" href="css/animate2.min.css" />
     <link rel="stylesheet" type="text/css" href="css/textanimation.css" />
+
+    <!-- espace -->
+    <link rel="stylesheet" type="text/css" href="css/espace.css" />
 
     <!-- Font -->
     <link rel="stylesheet" href="font/fonts.css" />
@@ -380,7 +383,7 @@ safety services that address the pressing needs of our customers in Cameroon.">
                                                 <li>
                                                     <i class="fa-solid fa-circle-check"></i>
                                                     <p>
-                                                    Phytosanitary protection
+                                                    Nursery setup and management
                                                     </p>
                                                 </li>
                                                 <li>
@@ -457,12 +460,11 @@ safety services that address the pressing needs of our customers in Cameroon.">
                                     <i class="icon-salad"></i>
                                 </div>
                                 <a href="#" class="caption fw-6 font-worksans hover-text-secondary">
-                                    Clean Vegetables
+                                    SOIL FERTILITY TEST 
                                 </a>
                                 <p class="text font-nunito">
-                                    Ultrices sagittis orci a scelerisque
-                                    purus<br /> semper eget duis at.
-                                    Sollictudin nibh <br /> sit amet commodo nulla.
+                                    Soil test.
+                                   <br />Fertilization plan. <br /> Way point collection.
                                 </p>
                                 <a href="#" class="btn-read">
                                     <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="80px" height="20px"
@@ -478,16 +480,14 @@ safety services that address the pressing needs of our customers in Cameroon.">
                         <div class="col-lg-3 col-md-6">
                             <div class="box-icon style-6 ic-hover wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="icon hover-icon style-circle">
-                                    <i class="icon-cow"></i>
+                                    <i class="icon-farmer"></i>
                                 </div>
                                 <a href="service-detail.html" class="caption fw-6 font-worksans hover-text-secondary">
-                                    Pure Cow's Milk
+                                    Way point collection
                                 </a>
                                 <p class="text font-nunito">
-                                    Ultrices sagittis orci a scelerisque
-
-                                    purus<br /> semper eget duis at.
-                                    Sollictudin nibh <br /> sit amet commodo nulla.
+                                    Drinking water<br /> Stream and spring.
+                                    <br /> Waste water<br /> City water<br /> Pool
                                 </p>
                                 <a href="service-detail.html" class="btn-read">
                                     <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="80px" height="20px"
@@ -503,16 +503,13 @@ safety services that address the pressing needs of our customers in Cameroon.">
                         <div class="col-lg-3 col-md-6">
                             <div class="box-icon style-6 ic-hover wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="icon hover-icon style-circle">
-                                    <i class="icon-chicken-2 fs-67"></i>
+                                    <i class="icon-farmer"></i>
                                 </div>
                                 <a href="service-detail.html" class="caption fw-6 font-worksans hover-text-secondary">
-                                    Clean Chicken And Eggs
+                                    Waste water
                                 </a>
                                 <p class="text font-nunito">
-                                    Ultrices sagittis orci a scelerisque
-
-                                    purus<br /> semper eget duis at.
-                                    Sollictudin nibh <br /> sit amet commodo nulla.
+                                Training, Counseling & Inspection<br />Recommendations<br />Business plan simulation<br />Project management
                                 </p>
                                 <a href="service-detail.html" class="btn-read">
                                     <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="80px" height="20px"
@@ -531,13 +528,77 @@ safety services that address the pressing needs of our customers in Cameroon.">
                                     <i class="icon-seed-bag"></i>
                                 </div>
                                 <a href="service-detail.html" class="caption fw-6 font-worksans hover-text-secondary">
-                                    Fertilizer Product
+                                    Recommendations
                                 </a>
                                 <p class="text font-nunito">
-                                    Ultrices sagittis orci a scelerisque
-
-                                    purus<br /> semper eget duis at.
-                                    Sollictudin nibh <br /> sit amet commodo nulla.
+                                Leaf test<br /> Fertilizer Recommendation<br />
+                                </p>
+                                <a href="service-detail.html" class="btn-read">
+                                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="80px" height="20px"
+                                        viewBox="0 0 80 20" preserveAspectRatio="xMidYMid meet">
+                                        <g fill="#ffffff">
+                                            <path
+                                                d="M63 19 c0 -0.5 2.6 -2.4 5.8 -4.2 l5.7 -3.3 -19.5 -0.8 c-11 -0.5 -27.1 -0.5 -37 0.1 -9.6 0.5 -17.7 0.7 -17.9 0.5 -2.4 -1.9 22 -3.5 48.7 -3.1 l25.2 0.3 -4.6 -3.9 c-2.5 -2.1 -4.3 -4 -4 -4.3 0.7 -0.7 14.6 8.9 14.6 10.2 0 1.1 -14.3 9.5 -16.2 9.5 -0.4 0 -0.8 -0.4 -0.8 -1z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div> <div class="espace"></div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="box-icon style-6 ic-hover wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="icon hover-icon style-circle">
+                                    <i class="icon-seed-bag"></i>
+                                </div>
+                                <a href="service-detail.html" class="caption fw-6 font-worksans hover-text-secondary">
+                                    FEED NUTRIENT MEASURMENT
+                                </a>
+                                <p class="text font-nunito">
+                                    Combined with the AgroCares Scanner, our innovative Feed Cares
+                                    Service provide you with nutrient content analysis for raw materials, silages, TMR and fresh grass.
+                                </p>
+                                <a href="service-detail.html" class="btn-read">
+                                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="80px" height="20px"
+                                        viewBox="0 0 80 20" preserveAspectRatio="xMidYMid meet">
+                                        <g fill="#ffffff">
+                                            <path
+                                                d="M63 19 c0 -0.5 2.6 -2.4 5.8 -4.2 l5.7 -3.3 -19.5 -0.8 c-11 -0.5 -27.1 -0.5 -37 0.1 -9.6 0.5 -17.7 0.7 -17.9 0.5 -2.4 -1.9 22 -3.5 48.7 -3.1 l25.2 0.3 -4.6 -3.9 c-2.5 -2.1 -4.3 -4 -4 -4.3 0.7 -0.7 14.6 8.9 14.6 10.2 0 1.1 -14.3 9.5 -16.2 9.5 -0.4 0 -0.8 -0.4 -0.8 -1z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="box-icon style-6 ic-hover wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="icon hover-icon style-circle">
+                                <i class="fa-solid fa-tractor"></i>
+                                </div>
+                                <a href="service-detail.html" class="caption fw-6 font-worksans hover-text-secondary">
+                                    FARM MANAGEMENT 
+                                </a>
+                                <p class="text font-nunito">
+                                Farm tillage – Tractors<br /> Nursery setup and maintenance<br /><br /> Mapping<br /> Industrial planting<br /> Integrated Pest Management (IPM)<br /> Harvesting<br />
+                                </p>
+                                <a href="service-detail.html" class="btn-read">
+                                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="80px" height="20px"
+                                        viewBox="0 0 80 20" preserveAspectRatio="xMidYMid meet">
+                                        <g fill="#ffffff">
+                                            <path
+                                                d="M63 19 c0 -0.5 2.6 -2.4 5.8 -4.2 l5.7 -3.3 -19.5 -0.8 c-11 -0.5 -27.1 -0.5 -37 0.1 -9.6 0.5 -17.7 0.7 -17.9 0.5 -2.4 -1.9 22 -3.5 48.7 -3.1 l25.2 0.3 -4.6 -3.9 c-2.5 -2.1 -4.3 -4 -4 -4.3 0.7 -0.7 14.6 8.9 14.6 10.2 0 1.1 -14.3 9.5 -16.2 9.5 -0.4 0 -0.8 -0.4 -0.8 -1z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="box-icon style-6 ic-hover wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="icon hover-icon style-circle">
+                                    <i class="icon-farmer"></i>
+                                </div>
+                                <a href="service-detail.html" class="caption fw-6 font-worksans hover-text-secondary">
+                                    CARBON MONITORING SOLUTION 
+                                </a>
+                                <p class="text font-nunito">
+                                In our commitment to delivering comprehensive results for long-term carbon programs to our valued customers and partners, we use the new Carbon Monitor Solution developed by Agrocare. It utilizes the power of the scientific and peer-reviewed <a href="https://link.springer.com/article/10.1007/s13593-022-00856-7">SoilCASTOR</a> method
                                 </p>
                                 <a href="service-detail.html" class="btn-read">
                                     <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="80px" height="20px"

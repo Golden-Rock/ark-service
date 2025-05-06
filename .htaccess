@@ -4,6 +4,7 @@ RewriteEngine On
     RewriteRule ^contact/home$              contact.php
     RewriteRule ^about$                     about.php
     RewriteRule ^shops$                     shops.php
+    
 
     RewriteRule ^gallery$                   gallery.php
     RewriteRule ^contact-email/([a-z-]+)$    contact.php?id=$1
